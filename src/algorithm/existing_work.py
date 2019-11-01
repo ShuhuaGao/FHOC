@@ -257,17 +257,6 @@ class CuiXingbangSolver(AbstractSolver):
         super().__init__(L, m, n, g)
         self._successors = {}
 
-    # def _successors(self, i):
-    #     if i not in self.optimal_one_step_action:
-    #         self.optimal_one_step_action[i] = {}
-    #         for k in range(1, self.M + 1):
-    #             blk = self.L[(k - 1) * self.N: k * self.N]
-    #             j = blk[i - 1]
-    #             c = self.g(i, k)
-    #             if c < self.optimal_one_step_action[i].get(j, self._INF):
-    #                 self.optimal_one_step_action[i][j] = c
-    #     return self.optimal_one_step_action[i]
-
     def _get_successors(self, i):
         s = {}
         for k in range(1, self.M + 1):

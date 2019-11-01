@@ -19,3 +19,4 @@ Python 3.6 or higher.
 
 **How to cite this work**
 
+Gao, Shuhua, Changkai Sun, Cheng Xiang, Kairong Qin, and Tong Heng Lee. "Finite-Horizon Optimal Control of Boolean Control Networks: A Unified Graph-Theoretical Approach." *arXiv preprint arXiv:1908.02019* (2019). 
