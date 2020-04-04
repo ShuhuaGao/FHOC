@@ -82,9 +82,12 @@ class FixedTimeSolver:
         # assert existence of solutions: Proposition 1
         assert layers[self.T], "Problem is not feasible! Check Proposition 1"
         # predecessors[(t, j)] gives j's preceding vertices at time t - 1, the one-step optimal control, and the weight
-        RS = set()
-        for layer in layers[0: self.T + 1]:
-            RS = RS | layer
+        # inspect the reachable set if interested
+        if True:
+            RS = set()
+            for layer in layers[0: self.T + 1]:
+                RS = RS | layer
+            print('Size of the reachable set is: ', len(RS))
         return predecessors
 
     def solve(self) -> Tuple[float, List[int], List[int]]:
