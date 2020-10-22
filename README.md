@@ -1,5 +1,5 @@
 # Finite-Horizon Optimal Control of Boolean Control Networks
-This repository contains the code for the paper: Shuhua Gao, Changkai Sun, Cheng Xiang, Kairong Qin, and Tong Heng Lee. *Finite-Horizon Optimal Control of Boolean Control Networks: A Unified Graph-Theoretical Approach* (To be published)
+This repository contains the code for the paper: Shuhua Gao, Changkai Sun, Cheng Xiang, Kairong Qin, and Tong Heng Lee. *Finite-Horizon Optimal Control of Boolean Control Networks: A Unified Graph-Theoretical Approach* published on *IEEE transactions on neural networks and learning systems*.
 
 **Organization**
 
@@ -19,4 +19,4 @@ Python 3.6 or higher.
 
 **How to cite this work**
 
-Gao, Shuhua, Changkai Sun, Cheng Xiang, Kairong Qin, and Tong Heng Lee. "Finite-Horizon Optimal Control of Boolean Control Networks: A Unified Graph-Theoretical Approach." *arXiv preprint arXiv:1908.02019* (2019). 
+Gao, S., Sun, C., Xiang, C., Qin, K., & Lee, T. H. (2020). Finite-Horizon Optimal Control of Boolean Control Networks: A Unified Graph-Theoretical Approach. IEEE transactions on neural networks and learning systems, PP, 10.1109/TNNLS.2020.3027599. Advance online publication. https://doi.org/10.1109/TNNLS.2020.3027599
